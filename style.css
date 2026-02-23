@@ -179,3 +179,65 @@
             background: radial-gradient(circle, rgba(240, 101, 41, 0.1) 0%, transparent 70%);
             z-index: -1;
         }
+
+
+        .css-card {
+        background: rgba(10, 20, 40, 0.7);
+        border: 1px solid rgba(48, 115, 255, 0.3);
+        backdrop-filter: blur(15px);
+        padding: 40px;
+        border-radius: 32px;
+        max-width: 550px;
+        text-align: center;
+        box-shadow: 0 40px 100px rgba(0, 0, 0, 0.6);
+        animation: fadeInReveal 1s ease-out;
+    }
+
+    .css-logo {
+        width: 100px;
+        filter: drop-shadow(0 0 20px rgba(48, 115, 255, 0.4));
+        animation: floatElement 5s ease-in-out infinite;
+    }
+
+    .text-gradient-css {
+        font-size: 3.5rem;
+        font-weight: 800;
+        background: linear-gradient(135deg, #3073ff, #00d4ff);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 16px;
+    }
+
+    .accent-css { color: #3073ff; font-weight: bold; }
+
+    .github-card {
+        background: rgba(20, 20, 22, 0.8);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(15px);
+        padding: 40px;
+        border-radius: 32px;
+        max-width: 550px;
+        text-align: center;
+        box-shadow: 0 40px 100px rgba(0, 0, 0, 0.9);
+        animation: fadeInReveal 1s ease-out;
+    }
+
+    .github-logo {
+        width: 100px;
+        filter: invert(1) drop-shadow(0 0 15px rgba(255, 255, 255, 0.2));
+        animation: pulseLogo 3s infinite ease-in-out;
+    }
+
+    .text-gradient-github {
+        font-size: 3.5rem;
+        font-weight: 800;
+        background: linear-gradient(135deg, #ffffff, #8b5cf6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 16px;
+    }
+
+    @keyframes pulseLogo {
+        0%, 100% { transform: scale(1); opacity: 1; }
+        50% { transform: scale(1.05); opacity: 0.8; }
+    }
