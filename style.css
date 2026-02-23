@@ -1,0 +1,181 @@
+ /* Modern Reset & Base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0a0a0c; /* Deep obsidian */
+            color: #ffffff;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Main Component Class */
+        .hero-card {
+            position: relative;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px);
+            padding: 40px;
+            border-radius: 32px;
+            max-width: 550px;
+            text-align: center;
+            box-shadow: 0 40px 100px rgba(0, 0, 0, 0.8);
+            animation: fadeInReveal 1s ease-out forwards;
+        }
+
+        /* Image Class with Animation */
+        .hero-logo {
+            width: 100px;
+            height: auto;
+            margin-bottom: 24px;
+            filter: drop-shadow(0 0 20px rgba(227, 79, 38, 0.3));
+            animation: floatElement 5s ease-in-out infinite;
+        }
+
+        /* Typography Classes */
+        .text-gradient {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, #ff6b35, #f06529, #f16529);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-description {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: #a1a1aa;
+            margin-bottom: 20px;
+        }
+
+        .accent-text {
+            color: #f06529;
+            font-weight: bold;
+        }
+
+        /* Keyframes */
+        @keyframes fadeInReveal {
+            from {
+                opacity: 0;
+                transform: translateY(20px) scale(0.98);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+
+        @keyframes floatElement {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-12px); }
+        }
+
+        /* Background Glow Detail */
+        .bg-glow {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(240, 101, 41, 0.1) 0%, transparent 70%);
+            z-index: -1;
+        } /* Modern Reset & Base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0a0a0c; /* Deep obsidian */
+            color: #ffffff;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Main Component Class */
+        .hero-card {
+            position: relative;
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px);
+            padding: 40px;
+            border-radius: 32px;
+            max-width: 550px;
+            text-align: center;
+            box-shadow: 0 40px 100px rgba(0, 0, 0, 0.8);
+            animation: fadeInReveal 1s ease-out forwards;
+        }
+
+        /* Image Class with Animation */
+        .hero-logo {
+            width: 100px;
+            height: auto;
+            margin-bottom: 24px;
+            filter: drop-shadow(0 0 20px rgba(227, 79, 38, 0.3));
+            animation: floatElement 5s ease-in-out infinite;
+        }
+
+        /* Typography Classes */
+        .text-gradient {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, #ff6b35, #f06529, #f16529);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-description {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: #a1a1aa;
+            margin-bottom: 20px;
+        }
+
+        .accent-text {
+            color: #f06529;
+            font-weight: bold;
+        }
+
+        /* Keyframes */
+        @keyframes fadeInReveal {
+            from {
+                opacity: 0;
+                transform: translateY(20px) scale(0.98);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+
+        @keyframes floatElement {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-12px); }
+        }
+
+        /* Background Glow Detail */
+        .bg-glow {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(240, 101, 41, 0.1) 0%, transparent 70%);
+            z-index: -1;
+        }
